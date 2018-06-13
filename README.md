@@ -2,7 +2,11 @@
 
 ## Named Destination
 
-Current message example goes here
+```shell
+
+-definition "file | router --expression=header.contains('a')?':foo':':bar'"
+
+```
 
 ## Fan-In/Fan-Out
 
